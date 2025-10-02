@@ -1,0 +1,87 @@
+/* General Page Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Quiz Container */
+.quiz-container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  width: 420px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+/* Title */
+.title {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+}
+
+/* Question */
+#question {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+/* Options */
+.options {
+  text-align: left;
+  margin: 15px 0;
+}
+
+.options label {
+  display: block;
+  background: #f9f9f9;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.options label:hover {
+  background: #eef6ff;
+  transform: scale(1.02);
+}
+
+.options input {
+  margin-right: 10px;
+}
+
+/* Submit Button */
+button {
+  margin-top: 15px;
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  background: #007BFF;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Result */
+.result {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: green;
+}
